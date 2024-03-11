@@ -1,0 +1,168 @@
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.backGround::before{
+    content:"";
+    background-image: url('./background.jpg');
+    background-position: center;
+    background-size: cover;
+    opacity: 80%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 3%;
+    border: 2px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    background-color: bisque;
+}
+.kaire {
+    display: flex;
+    align-items: center;
+}
+
+.kaire img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px; 
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+nav a:hover {
+    color: blue;
+}
+main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+.mein {
+    width: 50%;
+    height: 50%;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.mein img {
+    width: 50px;
+    height: 50px;
+}
+
+.Naminiaikaciukai {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.Naminiaikaciukai h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.naminis {
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+.naminis img {
+    max-width: 50px;
+    height: 50px;
+}
+
+naminis p {
+    width: 50%;
+    margin-left: 10px;
+}
+
+.Laukineskates {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Laukineskates h2 {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.laukinis {
+    flex-basis: calc(18.5% - 20px);
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.laukinis img {
+    width: 50px;
+    height: 50px;
+}
+
+.Katyciunauda {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Katyciunauda h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.Katyciunauda img {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Katyciunauda p {
+    column-count: 3;
+    column-gap: 20px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer p {
+    flex: 1;
+    text-align: center;
+}
